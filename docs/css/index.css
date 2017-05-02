@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background-color: seagreen;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #eee;
+    margin-left: 2.3em;
+    height: 50px;
+    text-align: left;
+    line-height: 50px;
+    letter-spacing: 3px;
+    font-family: '黑体';
+}
+
+main {
+    background-color: #eee;
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+
+main li {
+    color: #999;
+    font-size: 20px;
+    font-family: '微软雅黑';
+    list-style: none;
+    padding-left: 5em;
+    height: 2em;
+}
+
+main ul {
+    padding-top: 5em;
+    min-height: 500px;
+}
+
+li>a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 300px;
+    margin: 0 auto;
+    height: 70px;
+    color: #999;
+    line-height: 70px;
+}
+
+footer {
+    background-color: seagreen;
+}
+
+.blog-list {
+    width: 60%;
+    box-shadow: 2px 2px 2px 2px #cfcfcf;
+    background-color: #fefefe;
+    margin-bottom: 5px;
+}
